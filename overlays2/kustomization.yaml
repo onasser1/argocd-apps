@@ -9,11 +9,11 @@ namespace: default
 patches:
 - target:
     kind: Deployment
-    name: nginx-deployment
+    name: nginx-deployment-2
   patch: |-
     apiVersion: apps/v1
     kind: Deployment
     metadata:
-      name: nginx-deployment
+      name: nginx-deployment-2
     spec:
       replicas: 2
